@@ -10,10 +10,10 @@ int main(){
   char c;
   
   printf("Enter int: \n");
-  scanf(" %d ", &n);
+  scanf("%d ", &n);
   
   printf("Enter float: \n");
-  scanf(" %f ", &f);
+  scanf("%f ", &f);
 
   printf("Enter char: \n");
   scanf(" %c ", &c);

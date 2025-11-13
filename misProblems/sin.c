@@ -16,10 +16,9 @@ int main(){
   while(fabs(term) >= 1e-15){
 
     double numerator = pow(-1, n) * pow(x, (2 * n + 1));
-    double denominator = 1;
 
+    double denominator = 1;
     int lim = (2 * n + 1);
-    
     for(int i = 1; i <= lim; i++){
       denominator = denominator * i;
     }

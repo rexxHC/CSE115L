@@ -4,40 +4,21 @@ int main (){
 
   int a,b,c;
 
-  printf("n1\n");
+  printf("a\n");
   scanf("%d", &a);
   
-  printf("n2\n");
+  printf("b\n");
   scanf("%d", &b);
   
-  printf("n3\n");
+  printf("c\n");
   scanf("%d", &c);
 
-  if (a>b && a>c){
-    printf("%d is greatest \n",a);
-    if (b<c && b<a){
-      printf("%d is the second greatest", b);
-   } else {
-      printf("%d is the second greatest",c);
-    }
-    
-} else if (b >a && b > c) {
-  printf("%d is the greatest", b);
-    if (a > c && a < b ) {
-      printf ("%d is the second greatest", a);
-    } else {
-      printf("%d is the second greatest", c);
-    }
-  
+if(a > b && a > c){
+  printf("a(%d) is the greatest", a);
+} else if(b > a && b > c){
+  printf("b(%d)is the greatest", b);
 } else {
-  printf("c is the greatest");
-  if ( a > b){
-    printf("%d is the second greatest",a);
-  } else {
-    printf(" b is the second greatest");
-  }
+  printf("c(%d)is the greatest", c);
 }
 
-  return 0;
-  
 }
